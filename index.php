@@ -9,11 +9,18 @@
 </head>
 <body>
     <form action='controle.php' method='GET'>
-        <p><input type='text' name='codigo' placeholder='código'></p>
+        <p><input type='number' name='codigo' placeholder='código'></p>
         <p><input type='text' name='nome' placeholder='nome'></p>
         <p><input type='text' name='cargo' placeholder='cargo'></p>
-        <p><input type='submit' value='cadastrar'></p>
-
+        <p><input type='submit' name="botao" value='cadastrar'></p>
+        <p><input type='submit' name="botao" value='atualizar'></p>
+        <p><input type='submit' name="botao" value='deletar'></p>
     </form>
+
+    <form action='controle.php' method='GET'>
+        <p><input type='number' name='codigo' placeholder='código'></p>
+        <p><input type='submit' value='consultar' name="botao"></p>
+    </form>
+
 </body>
 </html>
